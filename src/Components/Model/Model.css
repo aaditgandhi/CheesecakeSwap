@@ -1,0 +1,34 @@
+.Model {
+    position: absolute;
+    inset: 0% 0% 0% 0%;
+    background-color: #1e1e1e5a;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    z-index: 111111111;
+}
+.Model_box{
+    background-color: #1e1e1e;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+.Model_box_heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Model_box_heading p{
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+.Model_box_wallet p{
+    background-color: #cff80b;
+    padding-left: 3rem;
+    padding-right: 5rem;
+    border-radius: 0.5rem;
+    color: #1e1e1e;
+    font-weight: 700;
+    cursor: pointer;
+}
